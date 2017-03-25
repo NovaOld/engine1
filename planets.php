@@ -29,6 +29,8 @@
    public $crystal_max=0;
    public $deuterium=0;
    public $deuterium_max=0;
+   public $energy_used=0;
+   public $energy_max=0;
 
    public function save()
    {
@@ -109,7 +111,7 @@
      $prefix="ugml_"; 
      $nazwa_tabeli=$prefix."planets";
      $id_planety=$this->id;
-     $zap=mysql_query("select metal, metal_max, crystal, crystal_max, deuterium, deuterium_max from $nazwa_tabeli where id=$id_planety");
+     $zap=mysql_query("select metal, metal_max, crystal, crystal_max, deuterium, deuterium_max, energy_used, energy_max from $nazwa_tabeli where id=$id_planety");
      $odp=mysql_fetch_assoc($zap);
      $this->metal=$odp['metal'];
      $this->metal_max=$odp['metal_max'];
@@ -117,6 +119,8 @@
      $this->crystal_max=$odp['crystal_max'];
      $this->deuterium=$odp['deuterium'];
      $this->deuterium_max=$odp['deuterium_max'];
+     $this->energy_used=$odp['energy_used'];
+     $this->energy_max=$odp['energy_max'];
    }
 
    private $planety_odp;
@@ -167,6 +171,35 @@
    public function zmiana_satelit_procent($procent)
    {
      $this->solar_satelit_porcent=$procent;
+   }
+
+   public function is_metal_max()
+   {
+         if($this->metal>=$this->metal_max) return "";
+       return "r-ok";
+   }
+
+   public function is_crystal_max()
+   {
+         if($this->crystal>=$this->crystal_max) return "";
+       return "r-ok";
+   }
+  
+   public function is_deuterium_max()
+   {
+         if($this->deuterium>=$this->crystal_max) return "";
+       return "r-ok";
+   }
+
+   public function energy_free()
+   {
+      return $this->energy_max-$this-energy_used;
+   }
+
+   public function is_energy_max()
+   {
+         if($this->energy_free()<0) return "";
+       return "r-ok";
    }
   
  }
