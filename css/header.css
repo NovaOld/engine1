@@ -1,0 +1,32 @@
+.header {
+	padding: 5% 25% 0 5%;
+	float:right;
+}	
+.header div {
+display: inline-block;
+padding:0 20px 0 20px;
+}
+
+.header div img {
+}
+
+.header div p {
+padding:0;
+margin:0;
+color:white;
+}
+.planety {
+width:200px;
+vertical-align:middle;
+position:relative;
+margin-top:-80px;
+}
+
+.r-ok {
+color:white;
+font-size:12px;
+}
+.r-overload {
+color:red;
+font-size:12px;
+}

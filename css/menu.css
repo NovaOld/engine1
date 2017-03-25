@@ -1,0 +1,28 @@
+.lewe-menu-produkcja {
+	float:left;
+	padding:10px;
+	text-decoration: none;
+	text-align:left!important;
+	padding-top:5%;
+	width:10%;
+}
+.lewe-menu-produkcja div {
+	background-color:#16274C;
+}
+.lewe-menu-produkcja a {
+	color:white;
+}
+.lewe-menu-produkcja a:link {
+    text-decoration: none;
+
+}
+.lewe-menu-produkcja a:hover {
+    text-decoration: underline;
+	width:105px;
+	color:#B4C8F7;
+}
+
+.menu-img {
+height:30px;
+width:100px;
+}
