@@ -121,6 +121,23 @@
      $this->deuterium_max=$odp['deuterium_max'];
      $this->energy_used=$odp['energy_used'];
      $this->energy_max=$odp['energy_max'];
+     $this->load_max_resources();
+   }
+
+
+   private function load_max_resources()
+   {
+     $prefix="ugml_"; 
+     $nazwa_tabeli=$prefix."planets";
+     $id_planety=$this->id;
+     $zap=mysql_query("select metal_store, crystal_store, deuterium_store from $nazwa_tabeli where id=$id_planety");
+     $odp=mysql_fetch_assoc($zap);
+     $metal_store=$odp['metal_store'];
+     $crystal_store=$odp['crystal_store'];
+     $deuterium_store=$odp['deuterium_store'];
+     $this->metal_max+=pow(2,$metal_store);
+     $this->crystal_max+=pow(2,$crystal_store);
+     $this->deuterium_max+=pow(2,$deuterium_store);
    }
 
    private $planety_odp;
@@ -193,7 +210,7 @@
 
    public function energy_free()
    {
-      return $this->energy_max-$this-energy_used;
+      return $this->energy_max-$this->energy_used;
    }
 
    public function is_energy_max()
