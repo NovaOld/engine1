@@ -1,10 +1,10 @@
 .lewe-menu-produkcja {
 	float:left;
-	padding:10px;
+	padding:20px;
 	text-decoration: none;
 	text-align:left!important;
 	padding-top:5%;
-	width:10%;
+	width:100px;
 }
 .lewe-menu-produkcja div {
 	background-color:#16274C;
@@ -25,4 +25,12 @@
 .menu-img {
 height:30px;
 width:100px;
+}
+.bug {
+	color:#ffa500!important;
+}
+
+.wyloguj {
+	color:red!important;
+	font-style:bold;
 }
