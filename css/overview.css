@@ -1,0 +1,24 @@
+.overview {
+padding:0 15% 0 15%; 
+color:white;
+}
+.overview div {
+	border:1px solid #fff;
+}
+.overview div p {
+color:white;
+margin:0;
+}
+.tid p {
+	display:inline-block;
+	color:white;
+}
+.sojusz{
+	color:green;
+}
+.wrogi{
+color:red;
+}
+.szpieg{
+color:#FDB813;
+}
