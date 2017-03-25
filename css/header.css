@@ -1,6 +1,7 @@
 .header {
 	padding: 5% 20% 0 0;
 	float:right;
+	position:absolute;
 }	
 .header div {
 display: inline-block;
