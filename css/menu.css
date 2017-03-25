@@ -3,11 +3,12 @@
 	padding:20px;
 	text-decoration: none;
 	text-align:left!important;
-	padding-top:5%;
+	padding-top:10%;
 	width:100px;
 }
 .lewe-menu-produkcja div {
 	background-color:#16274C;
+	padding:1px;
 }
 .lewe-menu-produkcja a {
 	color:white;

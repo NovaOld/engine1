@@ -1,13 +1,19 @@
 .overview {
-padding:0 15% 0 15%; 
+padding:10% 15% 0 15%; 
 color:white;
+display:block;
+
 }
 .overview div {
 	border:1px solid #fff;
+	background-color:#16274C;
 }
 .overview div p {
 color:white;
 margin:0;
+}
+.tid {
+	display:block;
 }
 .tid p {
 	display:inline-block;
@@ -21,4 +27,8 @@ color:red;
 }
 .szpieg{
 color:#FDB813;
+}
+.planeta-nazwa {
+float:left!important;
+display:block;
 }
