@@ -1,5 +1,5 @@
 .overview {
-padding:10% 15% 0 15%; 
+padding:8em 15% 0 15%; 
 color:white;
 display:block;
 
@@ -7,6 +7,7 @@ display:block;
 .overview div {
 	border:1px solid #fff;
 	background-color:#16274C;
+	padding:0.1em;
 }
 .overview div p {
 color:white;
@@ -14,21 +15,41 @@ margin:0;
 }
 .tid {
 	display:block;
+	text-align:left;
+	padding-left:1em;
 }
 .tid p {
 	display:inline-block;
 	color:white;
+
+
 }
 .sojusz{
 	color:green;
+	text-align:left;
+	padding-left:1em;
+}
+.sojusz p {
+	padding-left:2em;
 }
 .wrogi{
 color:red;
+text-align:left;
+padding-left:1em;
+}
+.wrogi p {
+	padding-left:2em;
 }
 .szpieg{
 color:#FDB813;
+text-align:left!important;
+}
+.szpieg p {
+	padding-left:2em;
 }
 .planeta-nazwa {
-float:left!important;
 display:block;
+}
+.planeta {
+background-color:black;
 }

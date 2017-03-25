@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pl-PL">
 <head>
 <meta charset="UTF-8">
@@ -6,27 +7,27 @@
 <body>
 	<div class="header">
 	<select class="planety">
-		{select_planetlist}
+		<option value="planeta1" selected="selected">Merkury</option>
 		</select>
 		<div>
 		<img class="res-img" src="img/metal.gif" alt="Metal">
 		<p><span class="surowce-nazwa">Metal</span></p>
-		<p class="r-ok {metal_over}">{metal_src}</p>
+		<p class="r-ok r-overload">108317393404.280000</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/crystal.gif" alt="Kryształ">
 		<p><span class="surowce-nazwa">Kryształ</span></p>
-		<p class="r-ok {crystal_over}">{crystal_src}</p>
+		<p class="r-ok ">720482053.583000</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/deuterium.gif" alt="Deuter">
 		<p><span class="surowce-nazwa">Deuter</span></p>
-		<p class="r-ok {deuterium_over}">{deuterium_src}</p>
+		<p class="r-ok ">1573630379.000000</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/energy.gif" alt="Energia">
 		<p><span class="surowce-nazwa">Energia</span></p>
-		<p class="r-ok {energy_over}">{energy_free}/{energy_max}</p>
+		<p class="r-ok ">111621177160/111669169373</p>
 		</div>
 	</div>
 <nav class="lewe-menu-produkcja">
@@ -88,8 +89,9 @@
 <a class="wyloguj" href="#"><b>Wyloguj</b></a>
 </div>
 </nav>
-<div>
-	<p class="planeta-nazwa"><b>{planet_name}</b></p>
+<div class="overview">
+	<div>
+	<p class="planeta-nazwa"><b>Planeta:{planet_name}</b></p>
 	</div>
 	<div class="tid">
 	<p>Czas aktualny:</p>
@@ -99,15 +101,16 @@
 	<div>
 	<img class="planeta" src="img/planeta04.jpg" alt="Planeta">
 	</div>
-	<div class="wydarzenia"><b>Wydarzenia</b></div>
+	<div class="wydarzenia"><b>Wydarzenia:</b></div>
 	<div class="sojusz wrogi szpieg">
-	<p>Flota Wroga zbliża się do planety {planet_name} i osiągnie ją w czasie<span>{time}</span> misja:<span> {misja} </span> </p>
+	<p>Flota Wroga zbliża się do planety {planet_name}. Dotrze do niej w czasie:<span>{time}</span> misja:<span class="pogrubiona"> {misja} </span> </p>
 	</div>
 	<div class="sojusz wrogi szpieg">
-	<p>Flota Sojusznika zbliża się do planety {planet_name} i osiągnie ją w czasie: <span>{time}</span> misja:<span> {misja} </span> </p>
+	<p>Flota Sojusznika zbliża się do planety {planet_name}. Dotrze do niej w czasie:<span>{time}</span> misja:<span class="pogrubiona"> {misja} </span> </p>
 	</div>
 	<div class="sojusz wrogi szpieg">
-	<p>Flota Wroga zbliża się do planety {planet_name} i osiągnie ją w czasie<span>{time}</span> misja:<span> {misja} </span> </p>
+	<p>Flota Wroga zbliża się do planety {planet_name}. Dotrze do niej w czasie:<span>{time}</span> misja:<span class="pogrubiona"> {misja} </span> </p>
 	</div>
 </body>
 </html>
+

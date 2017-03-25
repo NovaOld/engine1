@@ -3,12 +3,12 @@
 	padding:20px;
 	text-decoration: none;
 	text-align:left!important;
-	padding-top:10%;
+	padding-top:8em;
 	width:100px;
 }
 .lewe-menu-produkcja div {
 	background-color:#16274C;
-	padding:1px;
+	padding:0.1em;
 }
 .lewe-menu-produkcja a {
 	color:white;
@@ -29,9 +29,10 @@ width:100px;
 }
 .bug {
 	color:#ffa500!important;
+	font-weight:bold;
 }
 
 .wyloguj {
 	color:red!important;
-	font-style:bold;
+	font-weight:bold;
 }
