@@ -1,7 +1,9 @@
 .header {
-	padding: 5% 20% 0 0;
+	padding: 5% 20% 0 5%;
 	float:right;
 	position:absolute;
+	width:92%;
+	margin:0 auto;
 }	
 .header div {
 display: inline-block;
