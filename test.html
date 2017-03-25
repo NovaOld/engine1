@@ -6,30 +6,27 @@
 <body>
 	<div class="header">
 	<select class="planety">
-		<option value="planeta1" selected="selected">planeta1</option>
-		<option value="planeta2" selected="selected">planeta2</option>
-		<option value="planeta3" selected="selected">planeta3</option>
-		<option value="planeta4" selected="selected">planeta4</option>
+		{select_planetlist}
 		</select>
 		<div>
 		<img class="res-img" src="img/metal.gif" alt="Metal">
 		<p><span class="surowce-nazwa">Metal</span></p>
-		<p class="r-ok r-overload">1000</p>
+		<p class="r-ok {metal_over}">{metal_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/crystal.gif" alt="Kryształ">
 		<p><span class="surowce-nazwa">Kryształ</span></p>
-		<p class="r-ok r-overload">1000</p>
+		<p class="r-ok {crystal_over}">{crystal_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/deuterium.gif" alt="Deuter">
 		<p><span class="surowce-nazwa">Deuter</span></p>
-		<p class="r-ok r-overload">1000</p>
+		<p class="r-ok {deuterium_over}">{deuterium_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/energy.gif" alt="Energia">
 		<p><span class="surowce-nazwa">Energia</span></p>
-		<p class="r-ok r-overload">1000/1000</p>
+		<p class="r-ok {energy_over}">{energy_free}/{energy_max}</p>
 		</div>
 	</div>
 <nav class="lewe-menu-produkcja">
