@@ -46,22 +46,22 @@
 		<div>
 		<img class="res-img" src="img/metal.gif" alt="Metal">
 		<p>Metal</p>
-		<p class="{metal_over} r-overload">{metal_src}</p>
+		<p class="r-ok {metal_over}">{metal_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/crystal.gif" alt="Kryształ">
 		<p>Kryształ</p>
-		<p class="{crystal_over} r-overload">{crystal_src}</p>
+		<p class="r-ok {crystal_over}">{crystal_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/deuterium.gif" alt="Deuter">
 		<p>Deuter</p>
-		<p class="{deuterium_over} r-overload">{deuterium_src}</p>
+		<p class="r-ok {deuterium_over}">{deuterium_src}</p>
 		</div>
 		<div>
 		<img class="res-img" src="img/energy.gif" alt="Energia">
 		<p>Energia</p>
-		<p class="{energy_over} r-overload">{energy_free}/{energy_max}</p>
+		<p class="r-ok {energy_over}">{energy_free}/{energy_max}</p>
 		</div>
 	</div>
 

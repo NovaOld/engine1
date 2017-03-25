@@ -27,6 +27,6 @@ color:white;
 font-size:12px;
 }
 .r-overload {
-color:red;
+color:red !important;
 font-size:12px;
 }

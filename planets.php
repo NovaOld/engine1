@@ -175,20 +175,20 @@
 
    public function is_metal_max()
    {
-         if($this->metal>=$this->metal_max) return "";
-       return "r-ok";
+         if($this->metal>=$this->metal_max) return "r-overload";
+       return "";
    }
 
    public function is_crystal_max()
    {
-         if($this->crystal>=$this->crystal_max) return "";
-       return "r-ok";
+         if($this->crystal>=$this->crystal_max) return "r-overload";
+       return "";
    }
   
    public function is_deuterium_max()
    {
-         if($this->deuterium>=$this->crystal_max) return "";
-       return "r-ok";
+         if($this->deuterium>=$this->crystal_max) return "r-overload";
+       return "";
    }
 
    public function energy_free()
@@ -198,8 +198,8 @@
 
    public function is_energy_max()
    {
-         if($this->energy_free()<0) return "";
-       return "r-ok";
+         if($this->energy_free()<0) return "r-overload";
+       return "";
    }
   
  }
