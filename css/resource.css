@@ -1,0 +1,41 @@
+.srodek {
+padding:10em 15% 0 15%; 
+color:white;
+display:block;
+}
+.divTable{
+	display: table;
+	width: 100%;
+	text-align:center;
+}
+.divTableRow {
+	display: table-row;
+	text-align:center;
+}
+.divTableHeading {
+	background-color: #fff;
+	display: table-header-group;
+	text-align:center;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	text-align:center;
+}
+.divTableHeading {
+	background-color: #fff;
+	display: table-header-group;
+	font-weight: bold;
+	text-align:center;
+}
+.divTableFoot {
+	background-color: #fff;
+	display: table-footer-group;
+	font-weight: bold;
+	text-align:center;
+}
+.divTableBody {
+	display: table-row-group;
+	text-align:center;
+}
