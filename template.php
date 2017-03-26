@@ -3,6 +3,7 @@
   {
     private $page="";
     private $schematic="";
+    private $head="";
     
     public function add_schematic($name_file)
     {
@@ -24,7 +25,13 @@
 
     public function display()
     {
+        $this->page=str_replace('{HEAD}',$this->head,$this->page); 
         echo $this->page;
+    }
+
+    public function add_js($file_name)
+    {
+        $this->head.='<script src="'.$file_name.'"></script>';
     }
   }
 ?>

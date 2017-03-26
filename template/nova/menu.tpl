@@ -1,13 +1,13 @@
 <nav class="lewe-menu-produkcja">
 <img class="menu-img" src="img/produkcja.jpg" alt="Produkcja">
 <div>
-<a href="#">Podgląd</a>
+<a href="#" onclick="load_subpage('overview.php');">Podgląd</a>
 </div>
 <div>
 <a href="#">Budynki</a>
 </div>
 <div>
-<a href="#">Surowce</a>
+<a href="#" onclick="load_subpage('resource.tpl');">Surowce</a>
 </div>
 <div>
 <a href="#">Badania</a>
@@ -57,3 +57,4 @@
 <a class="wyloguj" href="#"><b>Wyloguj</b></a>
 </div>
 </nav>
+<div id="body_page" class="srodek">
