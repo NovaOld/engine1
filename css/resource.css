@@ -39,3 +39,9 @@ display:block;
 	display: table-row-group;
 	text-align:center;
 }
+.zuzycie {
+color:red;
+}
+.produkcja {
+color:green;
+}
