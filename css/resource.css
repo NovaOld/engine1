@@ -1,12 +1,15 @@
 .srodek {
-padding:10em 15% 0 15%; 
+width:50%;
 color:white;
 display:block;
+margin:10em 8em 8em 20em;
+
 }
 .divTable{
 	display: table;
 	width: 100%;
 	text-align:center;
+	background-color:#16274C;
 }
 .divTableRow {
 	display: table-row;
@@ -22,6 +25,7 @@ display:block;
 	display: table-cell;
 	padding: 3px 10px;
 	text-align:center;
+	font-size:10px;
 }
 .divTableHeading {
 	background-color: #fff;
