@@ -13,7 +13,7 @@
 <div class="divTableCell"><b><span class="produkcja">{metal-1h}</span></b></div>
 <div class="divTableCell"><b><b> - </b></b> </div>
 <div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b><span class="zuzycie">{zuzycie energii}</span></b></div>
+<div class="divTableCell"><b><span class="zuzycie">{m-zuzycie energii}</span></b></div>
 <div class="divTableCell"><select>
 		<option value="100%" selected="selected">100%</option>
 		</select></div>
@@ -23,7 +23,7 @@
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b><span class="produkcja">{krysztal-1h}</span></b></div>
 <div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b><span class="zuzycie">{zuzycie energii}</span></b></div>
+<div class="divTableCell"><b><span class="zuzycie">{k-zuzycie energii}</span></b></div>
 <div class="divTableCell"><select>
 		<option value="100%" selected="selected">100%</option>
 		</select></div>
@@ -33,7 +33,7 @@
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b><span class="produkcja">{deuter-1h}</span></b></div>
-<div class="divTableCell"><b><span class="zuzycie">{zuzycie energii}</span></b></div>
+<div class="divTableCell"><b><span class="zuzycie">{d-zuzycie energii}</span></b></div>
 <div class="divTableCell"><select>
 		<option value="100%" selected="selected">100%</option>
 		</select></div>
@@ -43,7 +43,7 @@
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b><span class="produkcja">{poziom energii/h}</b></span></div>
+<div class="divTableCell"><b><span class="produkcja">{S-poziom energii}</b></span></div>
 <div class="divTableCell"><select>
 		<option value="100%" selected="selected">100%</option>
 		</select></div>
@@ -53,29 +53,3 @@
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b> - </b></div>
 <div class="divTableCell"><b><span class="zuzycie">{zuzycie deuteru/h}</span></b></div>
-<div class="divTableCell"><b><span class="produkcja">{poziom energii}</span></b></div>
-<div class="divTableCell"><select>
-		<option value="100%" selected="selected">100%</option>
-		</select></div>
-	</div>
-	<div class="divTableRow">
-<div class="divTableCell"><b>Satelita słoneczny ilość:</b> {ilość satelit}</div>
-<div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b><span class="produkcja">{poziom energii}</span></b></div>
-<div class="divTableCell"><select>
-		<option value="100%" selected="selected">100%</option>
-		</select></div>
-	</div>
-	<div class="divTableRow">
-<div class="divTableCell"><b>Dzienne wydobycie:</b></div>
-<div class="divTableCell"><b><span class="produkcja">{metal-1h}*24</span></b></div>
-<div class="divTableCell"><b><span class="produkcja">{krysztal-1h}*24</span></b></div>
-<div class="divTableCell"><b><span class="produkcja">{deuter-1h}*24</span></b></div>
-<div class="divTableCell"><b> - </b></div>
-<div class="divTableCell"><b> - </b></div>
-	</div>
-</div>
-</div>
-</div>
