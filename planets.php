@@ -222,9 +222,7 @@
    public function update_ressource()
    {
        $PLANET=$this->get_one_planets_array($this->id);
-   echo	'<br>'.$PLANET['metal'].' - ';//		= max($PLANET['metal'], 0);
-echo		'<br>'.$PLANET['crystal'].' - ';//	= max($PLANET['crystal'], 0);
-echo		'<br>'.$PLANET['deuterium'].' - ';//	= max($PLANET['deuterium'], 0);
+
 
        $USER=$this->get_one_player($PLANET['id_owner']);
        $CONF=$this->get_game_settings();
@@ -290,7 +288,6 @@ echo		'<br>'.$PLANET['deuterium'].' - ';//	= max($PLANET['deuterium'], 0);
       $id=$PLANET['id'];
        $prefix="ugml_"; 
       $nazwa_tabeli=$prefix."planets";
-           echo	'<br>'.$PLANET['metal'].' - ';
       mysql_query("update $nazwa_tabeli set last_update='$last_up', metal='$metal', crystal='$crystal', deuterium='$deuterium' where id=$id") or die(mysql_error());
    }
 
@@ -454,7 +451,7 @@ echo		'<br>'.$PLANET['deuterium'].' - ';//	= max($PLANET['deuterium'], 0);
              $tablica['deuterium_max']=$this->deuterium_max;
              $tablica['energy_used']=$this->energy_used;
              $tablica['energy_max']=$this->energy_max;
-           return json_encode($ar);
+           return json_encode($tablica);
         }
   
  }
