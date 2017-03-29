@@ -1,0 +1,40 @@
+<?php
+ //array z dupy
+ $factor=array();
+ $factory['bilidspeed']=1;
+ $factory[0]=1490727720;
+ $factory[1]=0.1;
+ $factory[2]=0;
+ $factory['techspeed']=1;
+ $factory[3]=1490727720;
+ $factory[4]=0.1;
+ $factory[5]=0;
+ $factory['fleetspeed']=1;
+ $factory[6]=1490727720;
+ $factory[7]=0.1;
+ $factory[8]=0;
+ $factory['defspeed']=1;
+ $factory[9]=1490727720;
+ $factory[10]=0.1;
+ $factory[11]=0;
+ $factory['metal']=1;
+ $factory[12]=1490727720;
+ $factory[13]=0.1;
+ $factory[14]=0;
+ $factory['crystal']=1;
+ $factory[15]=1490727720;
+ $factory[16]=0.1;
+ $factory[17]=0;
+ $factory['deuterium']=1;
+ $factory[18]=1490727720;
+ $factory[19]=0.1;
+ $factory[20]=0;
+ $factory['norio']=1;
+ $factory[21]=1490727720;
+ $factory[22]=0.1;
+ $factory[23]=0;
+ $factory['energy']=1;
+ $factory[24]=1490727720;
+ $factory[25]=0.1;
+ $factory[26]=0;
+?>

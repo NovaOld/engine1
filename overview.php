@@ -35,6 +35,7 @@
 
    $planeta=new planets();
    $planeta->load_planet(102);
+   $planeta->update_ressource();
    $tpl=new template();
 
    //OVERVIEW
